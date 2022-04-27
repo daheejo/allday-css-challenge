@@ -68,12 +68,12 @@ main {
 }
 
 .history-box:nth-child(odd) {
-    margin-left: 51%;
+    margin-left: 52%;
     
 }
 
 .history-box:nth-child(even) {
-    margin-right: 51%;
+    margin-right: 52%;
     text-align: right;
 }
 
@@ -398,4 +398,29 @@ main {
 }
 .timeline .dot:nth-child(9) {
     top: 2150px;
+}
+
+
+/* 반응형 */
+@media screen and (max-width: 720px) {
+    .history-box.first::before,
+    .history-box.second::before,
+    .history-box.third::before,
+    .history-box.fourth::before,
+    .history-box.fifth::before,
+    .history-box.sixth::before,
+    .history-box.seventh::before,
+    .history-box.eighth::before,
+    .history-box.ninth::before {
+        display: none;
+    }
+
+    .history-box:nth-child(odd) {
+        margin: 0 auto;
+    }
+
+    .history-box:nth-child(even){
+        margin: 0 auto;
+    }
+
 }
