@@ -351,7 +351,7 @@ main {
     position: relative;
     margin: 0 auto;
     width: 5px;
-    height: 100%;
+    height: 400vh;
     background-color: RGB(28, 142, 251);
 }
 .timeline .dot {
