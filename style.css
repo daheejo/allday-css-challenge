@@ -39,6 +39,7 @@ header {
     height:4px;
     opacity: 80%;
     background-color: RGB(28, 142, 251);
+    z-index: -1;
 }
 
 main {
